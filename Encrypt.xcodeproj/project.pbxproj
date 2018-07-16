@@ -14,6 +14,16 @@
 		66E0B02620FC7C8E000C0D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B02420FC7C8E000C0D51 /* LaunchScreen.storyboard */; };
 		66E0B03120FC7C8E000C0D51 /* EncryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B03020FC7C8E000C0D51 /* EncryptTests.swift */; };
 		66E0B03C20FC7C8E000C0D51 /* EncryptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B03B20FC7C8E000C0D51 /* EncryptUITests.swift */; };
+		66E0B04E20FC7FEE000C0D51 /* rsaCert.crt in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B04920FC7FED000C0D51 /* rsaCert.crt */; };
+		66E0B04F20FC7FEE000C0D51 /* rsa_public_key.der in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B04A20FC7FED000C0D51 /* rsa_public_key.der */; };
+		66E0B05020FC7FEE000C0D51 /* rsa_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B04B20FC7FED000C0D51 /* rsa_public_key.pem */; };
+		66E0B05120FC7FEE000C0D51 /* rsa_private_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B04C20FC7FEE000C0D51 /* rsa_private_key.pem */; };
+		66E0B05220FC7FEE000C0D51 /* rsa_private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 66E0B04D20FC7FEE000C0D51 /* rsa_private_key.p12 */; };
+		66E0B05E20FC7FFF000C0D51 /* Encrypt_AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B05520FC7FFE000C0D51 /* Encrypt_AES.m */; };
+		66E0B05F20FC7FFF000C0D51 /* Encrypt_RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B05720FC7FFE000C0D51 /* Encrypt_RSA.m */; };
+		66E0B06020FC7FFF000C0D51 /* RSAOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B05820FC7FFE000C0D51 /* RSAOC.m */; };
+		66E0B06120FC7FFF000C0D51 /* Encrypt_3DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B05A20FC7FFE000C0D51 /* Encrypt_3DES.m */; };
+		66E0B06220FC7FFF000C0D51 /* Encrypt_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0B05B20FC7FFF000C0D51 /* Encrypt_MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,22 @@
 		66E0B03720FC7C8E000C0D51 /* EncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E0B03B20FC7C8E000C0D51 /* EncryptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptUITests.swift; sourceTree = "<group>"; };
 		66E0B03D20FC7C8E000C0D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66E0B04920FC7FED000C0D51 /* rsaCert.crt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsaCert.crt; sourceTree = "<group>"; };
+		66E0B04A20FC7FED000C0D51 /* rsa_public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsa_public_key.der; sourceTree = "<group>"; };
+		66E0B04B20FC7FED000C0D51 /* rsa_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_public_key.pem; sourceTree = "<group>"; };
+		66E0B04C20FC7FEE000C0D51 /* rsa_private_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rsa_private_key.pem; sourceTree = "<group>"; };
+		66E0B04D20FC7FEE000C0D51 /* rsa_private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsa_private_key.p12; sourceTree = "<group>"; };
+		66E0B05320FC7FFD000C0D51 /* Encrypt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Encrypt-Bridging-Header.h"; sourceTree = "<group>"; };
+		66E0B05420FC7FFE000C0D51 /* Encrypt_3DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt_3DES.h; sourceTree = "<group>"; };
+		66E0B05520FC7FFE000C0D51 /* Encrypt_AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt_AES.m; sourceTree = "<group>"; };
+		66E0B05620FC7FFE000C0D51 /* Encrypt_RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt_RSA.h; sourceTree = "<group>"; };
+		66E0B05720FC7FFE000C0D51 /* Encrypt_RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt_RSA.m; sourceTree = "<group>"; };
+		66E0B05820FC7FFE000C0D51 /* RSAOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAOC.m; sourceTree = "<group>"; };
+		66E0B05920FC7FFE000C0D51 /* Encrypt_AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt_AES.h; sourceTree = "<group>"; };
+		66E0B05A20FC7FFE000C0D51 /* Encrypt_3DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt_3DES.m; sourceTree = "<group>"; };
+		66E0B05B20FC7FFF000C0D51 /* Encrypt_MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encrypt_MD5.m; sourceTree = "<group>"; };
+		66E0B05C20FC7FFF000C0D51 /* RSAOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAOC.h; sourceTree = "<group>"; };
+		66E0B05D20FC7FFF000C0D51 /* Encrypt_MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encrypt_MD5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +125,26 @@
 			children = (
 				66E0B01B20FC7C8C000C0D51 /* AppDelegate.swift */,
 				66E0B01D20FC7C8C000C0D51 /* ViewController.swift */,
+				66E0B05420FC7FFE000C0D51 /* Encrypt_3DES.h */,
+				66E0B05A20FC7FFE000C0D51 /* Encrypt_3DES.m */,
+				66E0B05920FC7FFE000C0D51 /* Encrypt_AES.h */,
+				66E0B05520FC7FFE000C0D51 /* Encrypt_AES.m */,
+				66E0B05D20FC7FFF000C0D51 /* Encrypt_MD5.h */,
+				66E0B05B20FC7FFF000C0D51 /* Encrypt_MD5.m */,
+				66E0B05620FC7FFE000C0D51 /* Encrypt_RSA.h */,
+				66E0B05720FC7FFE000C0D51 /* Encrypt_RSA.m */,
+				66E0B05C20FC7FFF000C0D51 /* RSAOC.h */,
+				66E0B05820FC7FFE000C0D51 /* RSAOC.m */,
 				66E0B01F20FC7C8C000C0D51 /* Main.storyboard */,
 				66E0B02220FC7C8E000C0D51 /* Assets.xcassets */,
 				66E0B02420FC7C8E000C0D51 /* LaunchScreen.storyboard */,
 				66E0B02720FC7C8E000C0D51 /* Info.plist */,
+				66E0B04D20FC7FEE000C0D51 /* rsa_private_key.p12 */,
+				66E0B04C20FC7FEE000C0D51 /* rsa_private_key.pem */,
+				66E0B04A20FC7FED000C0D51 /* rsa_public_key.der */,
+				66E0B04B20FC7FED000C0D51 /* rsa_public_key.pem */,
+				66E0B04920FC7FED000C0D51 /* rsaCert.crt */,
+				66E0B05320FC7FFD000C0D51 /* Encrypt-Bridging-Header.h */,
 			);
 			path = Encrypt;
 			sourceTree = "<group>";
@@ -193,6 +235,7 @@
 				TargetAttributes = {
 					66E0B01720FC7C8C000C0D51 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					66E0B02B20FC7C8E000C0D51 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,8 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E0B05020FC7FEE000C0D51 /* rsa_public_key.pem in Resources */,
 				66E0B02620FC7C8E000C0D51 /* LaunchScreen.storyboard in Resources */,
+				66E0B05120FC7FEE000C0D51 /* rsa_private_key.pem in Resources */,
+				66E0B04F20FC7FEE000C0D51 /* rsa_public_key.der in Resources */,
+				66E0B05220FC7FEE000C0D51 /* rsa_private_key.p12 in Resources */,
 				66E0B02320FC7C8E000C0D51 /* Assets.xcassets in Resources */,
+				66E0B04E20FC7FEE000C0D51 /* rsaCert.crt in Resources */,
 				66E0B02120FC7C8C000C0D51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E0B06020FC7FFF000C0D51 /* RSAOC.m in Sources */,
+				66E0B05E20FC7FFF000C0D51 /* Encrypt_AES.m in Sources */,
+				66E0B06120FC7FFF000C0D51 /* Encrypt_3DES.m in Sources */,
+				66E0B06220FC7FFF000C0D51 /* Encrypt_MD5.m in Sources */,
 				66E0B01E20FC7C8C000C0D51 /* ViewController.swift in Sources */,
+				66E0B05F20FC7FFF000C0D51 /* Encrypt_RSA.m in Sources */,
 				66E0B01C20FC7C8C000C0D51 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Encrypt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -438,6 +492,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoolink.Encrypt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encrypt/Encrypt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Encrypt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hoolink.Encrypt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Encrypt/Encrypt-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
